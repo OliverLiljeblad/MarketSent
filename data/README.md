@@ -1,0 +1,1 @@
+# Data Folder\n\nStores raw and processed datasets for MarketSent.

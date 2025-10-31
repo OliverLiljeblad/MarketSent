@@ -52,9 +52,9 @@ marketsent/
 ---
 
 ## 🧑‍💻 Author
-**Oliver (OByte-Tech)**  
-📧 your.email@example.com  
-💼 GitHub | LinkedIn
+**Oliver**  
+📧 oliver.liljeblad@live.com
+💼 https://github.com/OliverLiljeblad | https://www.linkedin.com/in/oliver-liljeblad-519021227/ 
 
 ---
 

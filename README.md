@@ -4,7 +4,6 @@
 It uses **Natural Language Processing (NLP)** and **machine learning** to detect investor mood, predict market volatility, and visualize sentiment over time.
 
 ---
-## 🪶 Badges
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![NLP](https://img.shields.io/badge/Topic-NLP-purple)
 ![FinTech](https://img.shields.io/badge/Domain-FinTech-blue)

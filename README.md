@@ -4,6 +4,13 @@
 It uses **Natural Language Processing (NLP)** and **machine learning** to detect investor mood, predict market volatility, and visualize sentiment over time.
 
 ---
+## 🪶 Badges
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![NLP](https://img.shields.io/badge/Topic-NLP-purple)
+![FinTech](https://img.shields.io/badge/Domain-FinTech-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 
 ## 🚀 Features
 - Collects and processes live data from **Yahoo Finance**, **Reddit**, and **Twitter APIs** (optional).
@@ -55,15 +62,6 @@ marketsent/
 **Oliver**  
 📧 oliver.liljeblad@live.com
 💼 https://github.com/OliverLiljeblad | https://www.linkedin.com/in/oliver-liljeblad-519021227/ 
-
----
-
-## 🪶 Badges
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
-![NLP](https://img.shields.io/badge/Topic-NLP-purple)
-![FinTech](https://img.shields.io/badge/Domain-FinTech-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
 
 ---
 

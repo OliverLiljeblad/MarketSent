@@ -3,6 +3,9 @@
 **MarketSent** is an AI-driven platform that analyzes **financial sentiment** from news headlines, social media posts, and market data.  
 It uses **Natural Language Processing (NLP)** and **machine learning** to detect investor mood, predict market volatility, and visualize sentiment over time.
 
+🔧 **Under Construction**  
+We're building something awesome here. Stay tuned!
+
 ---
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![NLP](https://img.shields.io/badge/Topic-NLP-purple)

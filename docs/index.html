@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal portfolio of Your Name — Software Developer." />
+
+    <title>Your Name — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Optional: If you prefer zero external requests, remove the next line. -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-mark" aria-hidden="true">YN</span>
+          <span class="brand-text">Your Name</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Open navigation</span>
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HOME / HERO -->
+      <section class="section hero" id="home" aria-label="Hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <!-- EDIT HERE: Name + title -->
+            <p class="eyebrow">Hello, I’m</p>
+            <h1 class="hero-title">Your Name</h1>
+            <p class="hero-subtitle">Software Developer</p>
+
+            <!-- EDIT HERE: Professional summary -->
+            <p class="hero-summary">
+              I build reliable, user-focused software with a strong emphasis on performance, accessibility, and clean
+              architecture. I enjoy taking projects from idea to polished product.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Contact Me</a>
+            </div>
+
+            <div class="hero-meta" aria-label="Quick links">
+              <!-- EDIT HERE: Social links -->
+              <a class="text-link" href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+              <span class="dot" aria-hidden="true">•</span>
+              <a class="text-link" href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
+              <span class="dot" aria-hidden="true">•</span>
+              <a class="text-link" href="mailto:you@example.com">you@example.com</a>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Highlights">
+            <div class="stat">
+              <div class="stat-value">3+</div>
+              <div class="stat-label">Years coding</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">10+</div>
+              <div class="stat-label">Projects shipped</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">Always</div>
+              <div class="stat-label">Learning</div>
+            </div>
+            <p class="muted small">
+              <!-- EDIT HERE: Short “currently” line -->
+              Currently focused on building modern web apps and improving my systems design fundamentals.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="scroll-hint" aria-hidden="true">
+            <span class="scroll-hint-line"></span>
+            <span class="scroll-hint-text">Scroll</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about" aria-label="About me">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2>About Me</h2>
+            <p class="section-lead">
+              A quick overview of who I am, what I work on, and what I’m looking for.
+            </p>
+          </header>
+
+          <div class="about-grid">
+            <article class="card reveal">
+              <h3>Bio</h3>
+              <!-- EDIT HERE: Bio -->
+              <p>
+                I’m a developer who enjoys building products that feel fast, intuitive, and maintainable. I’m comfortable
+                working across the stack, collaborating with teams, and turning ambiguous problems into clear, incremental
+                solutions.
+              </p>
+              <p>
+                I value strong fundamentals, thoughtful UX, and pragmatic engineering trade-offs.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <h3>Skills</h3>
+              <div class="two-col">
+                <div>
+                  <h4 class="small-heading">Technical</h4>
+                  <ul class="tag-list" aria-label="Technical skills">
+                    <!-- EDIT HERE: Skills -->
+                    <li class="tag">JavaScript</li>
+                    <li class="tag">HTML & CSS</li>
+                    <li class="tag">Python</li>
+                    <li class="tag">APIs</li>
+                    <li class="tag">SQL</li>
+                    <li class="tag">Git</li>
+                    <li class="tag">Testing</li>
+                    <li class="tag">Performance</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 class="small-heading">Soft Skills</h4>
+                  <ul class="tag-list" aria-label="Soft skills">
+                    <li class="tag">Communication</li>
+                    <li class="tag">Ownership</li>
+                    <li class="tag">Curiosity</li>
+                    <li class="tag">Teamwork</li>
+                    <li class="tag">Problem-solving</li>
+                    <li class="tag">Time management</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="card reveal">
+              <h3>Education / Background</h3>
+              <!-- EDIT HERE: Education -->
+              <ul class="list">
+                <li>
+                  <strong>Degree / Program</strong> — University / School (20XX–20XX)
+                  <div class="muted small">Relevant coursework: Data Structures, Web Development, Databases</div>
+                </li>
+                <li>
+                  <strong>Focus Areas</strong>
+                  <div class="muted small">Frontend engineering, backend fundamentals, developer tooling</div>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projects" aria-label="Projects">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2>Projects</h2>
+            <p class="section-lead">A few things I’ve built—each focused on real-world constraints and clean execution.</p>
+          </header>
+
+          <div class="projects-grid">
+            <!-- EDIT HERE: Duplicate these cards for more projects -->
+            <article class="project-card reveal">
+              <div class="project-top">
+                <h3 class="project-title">Project One</h3>
+                <p class="project-desc">
+                  Short description of the project, the problem it solves, and the impact it has.
+                </p>
+              </div>
+
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="https://github.com/yourusername/project-one" target="_blank" rel="noreferrer">
+                  GitHub Repo
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <h3 class="project-title">Project Two</h3>
+                <p class="project-desc">
+                  Another project—highlight your role, key trade-offs, and what you learned.
+                </p>
+              </div>
+
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>Python</li>
+                <li>APIs</li>
+                <li>Testing</li>
+              </ul>
+
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="https://github.com/yourusername/project-two" target="_blank" rel="noreferrer">
+                  GitHub Repo
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <h3 class="project-title">Project Three</h3>
+                <p class="project-desc">
+                  A third project—include a crisp one-liner and the tech stack used.
+                </p>
+              </div>
+
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>SQL</li>
+                <li>Data</li>
+                <li>Performance</li>
+              </ul>
+
+              <div class="project-links">
+                <a class="btn btn-sm btn-ghost" href="https://github.com/yourusername/project-three" target="_blank" rel="noreferrer">
+                  GitHub Repo
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section" id="experience" aria-label="Experience">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2>Experience</h2>
+            <p class="section-lead">A timeline of roles, internships, or meaningful learning experiences.</p>
+          </header>
+
+          <ol class="timeline" aria-label="Experience timeline">
+            <!-- EDIT HERE: Update items (or add/remove) -->
+            <li class="timeline-item reveal">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Company / Organization</h3>
+                  <span class="timeline-meta">Role Title • 20XX — 20XX</span>
+                </div>
+                <ul class="list">
+                  <li>Built or improved feature X, resulting in outcome Y.</li>
+                  <li>Collaborated with designers/engineers to ship Z on time.</li>
+                  <li>Improved performance, accessibility, or code quality.</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline-item reveal">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3 class="timeline-title">Project / Learning Track</h3>
+                  <span class="timeline-meta">Self-directed • 20XX — Present</span>
+                </div>
+                <ul class="list">
+                  <li>Deepened knowledge in algorithms, web fundamentals, and system design.</li>
+                  <li>Built portfolio projects and practiced writing clean, tested code.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact" aria-label="Contact">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2>Contact</h2>
+            <p class="section-lead">Want to collaborate or chat? Send a message—this form is front-end only.</p>
+          </header>
+
+          <div class="contact-grid">
+            <div class="card reveal">
+              <h3>Get in touch</h3>
+              <ul class="contact-list">
+                <!-- EDIT HERE: Contact links -->
+                <li>
+                  <span class="contact-label">Email</span>
+                  <a class="text-link" href="mailto:you@example.com">you@example.com</a>
+                </li>
+                <li>
+                  <span class="contact-label">GitHub</span>
+                  <a class="text-link" href="https://github.com/yourusername" target="_blank" rel="noreferrer">github.com/yourusername</a>
+                </li>
+                <li>
+                  <span class="contact-label">LinkedIn</span>
+                  <a class="text-link" href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer">linkedin.com/in/yourusername</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card reveal">
+              <h3>Message</h3>
+              <form class="contact-form" id="contact-form" novalidate>
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+                </div>
+
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+                </div>
+
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" placeholder="What would you like to build?" required></textarea>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Send Message</button>
+                <p class="form-note muted small" id="form-note" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted small">
+          <!-- EDIT HERE: Name + year -->
+          © <span id="year"></span> Your Name. All rights reserved.
+        </p>
+        <div class="footer-links" aria-label="Footer social links">
+          <a class="text-link" href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="text-link" href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="text-link" href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
